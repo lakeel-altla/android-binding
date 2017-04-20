@@ -4,9 +4,9 @@ import com.lakeel.altla.android.binding.BindingMode;
 import com.lakeel.altla.android.binding.ViewBindingFactory;
 import com.lakeel.altla.android.binding.command.RelayCommand;
 import com.lakeel.altla.android.binding.converter.RelayConverter;
-import com.lakeel.altla.android.binding.property.BooleanProperty;
-import com.lakeel.altla.android.binding.property.IntProperty;
-import com.lakeel.altla.android.binding.property.StringProperty;
+import com.lakeel.altla.android.property.BooleanProperty;
+import com.lakeel.altla.android.property.IntProperty;
+import com.lakeel.altla.android.property.StringProperty;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

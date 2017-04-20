@@ -1,9 +1,9 @@
 package com.lakeel.altla.android.binding.adapter.view;
 
-import com.lakeel.altla.android.binding.Property;
 import com.lakeel.altla.android.binding.adapter.DefaultPropertyAdapterDefinition;
 import com.lakeel.altla.android.binding.adapter.PropertyAdapterDefinition;
 import com.lakeel.altla.android.binding.adapter.PropertyAdapterDefinitionRegistry;
+import com.lakeel.altla.android.property.Property;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;

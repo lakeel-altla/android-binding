@@ -2,6 +2,7 @@ package com.lakeel.altla.android.binding;
 
 import com.lakeel.altla.android.binding.adapter.view.ViewCommandTargetFactory;
 import com.lakeel.altla.android.binding.adapter.view.ViewPropertyAdapterFactory;
+import com.lakeel.altla.android.property.Property;
 
 import android.app.Activity;
 import android.support.annotation.IdRes;

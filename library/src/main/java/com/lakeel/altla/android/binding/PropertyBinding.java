@@ -1,5 +1,7 @@
 package com.lakeel.altla.android.binding;
 
+import com.lakeel.altla.android.property.Property;
+
 import android.support.annotation.NonNull;
 
 import java.util.Objects;
