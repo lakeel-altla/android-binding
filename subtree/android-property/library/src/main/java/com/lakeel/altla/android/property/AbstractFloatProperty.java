@@ -2,7 +2,7 @@ package com.lakeel.altla.android.property;
 
 import android.support.annotation.Nullable;
 
-public abstract class AbstractFloatProperty extends BaseProperty {
+public abstract class AbstractFloatProperty extends AbstractProperty {
 
     protected AbstractFloatProperty() {
     }

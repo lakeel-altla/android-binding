@@ -2,7 +2,7 @@ package com.lakeel.altla.android.property;
 
 import android.support.annotation.Nullable;
 
-public abstract class AbstractBooleanProperty extends BaseProperty {
+public abstract class AbstractBooleanProperty extends AbstractProperty {
 
     protected AbstractBooleanProperty() {
     }
