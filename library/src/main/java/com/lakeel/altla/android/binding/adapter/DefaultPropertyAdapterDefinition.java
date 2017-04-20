@@ -1,7 +1,7 @@
 package com.lakeel.altla.android.binding.adapter;
 
 import com.lakeel.altla.android.binding.PropertyNameResolver;
-import com.lakeel.altla.android.property.BaseProperty;
+import com.lakeel.altla.android.property.AbstractProperty;
 import com.lakeel.altla.android.property.Property;
 
 import android.support.annotation.NonNull;
@@ -49,7 +49,7 @@ public final class DefaultPropertyAdapterDefinition extends AbstractPropertyAdap
         return new Adapter(owner);
     }
 
-    private final class Adapter extends BaseProperty {
+    private final class Adapter extends AbstractProperty {
 
         private final Object owner;
 
