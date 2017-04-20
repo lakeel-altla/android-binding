@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="button">Button</string>
+    <string name="app_name">Sample</string>
+    <string name="enabled">Enabled</string>
+    <string name="disabled">Disabled</string>
+    <string name="button_set_text">Set text</string>
+    <string name="button_clear_text">Clear text</string>
+    <string name="text_view_on_long_click">Long click here</string>
+    <string name="toggle_button">Toggle</string>
+
+</resources>
