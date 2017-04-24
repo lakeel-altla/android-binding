@@ -22,6 +22,11 @@ public abstract class AbstractProperty implements Property {
         listeners.remove(listener);
     }
 
+    @Override
+    public final void clearOnValueChangedListeners() {
+        listeners.clear();
+    }
+
     public final void raiseOnValueChanged() {
         for (OnValueChangedListener listener : listeners) {
             listener.onValueChanged(this);
