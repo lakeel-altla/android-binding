@@ -14,6 +14,8 @@ public interface Property {
 
     void removeOnValueChangedListener(@NonNull OnValueChangedListener listener);
 
+    void clearOnValueChangedListeners();
+
     interface OnValueChangedListener {
 
         void onValueChanged(@NonNull Property sender);
