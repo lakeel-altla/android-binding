@@ -6,6 +6,11 @@ import android.view.View;
 
 public final class BooleanToVisibilityConverter implements Converter {
 
+    public static final BooleanToVisibilityConverter INSTANCE = new BooleanToVisibilityConverter();
+
+    private BooleanToVisibilityConverter() {
+    }
+
     @Override
     public Object convert(Object value) {
         if (value == null) {
